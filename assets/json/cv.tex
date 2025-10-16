@@ -1,0 +1,467 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\renewcommand{\familydefault}{\rmdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}
+% if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Huao}{Li}                             
+\address{51 Vassar St, Cambridge, MA 02139}
+\phone[mobile]{412 613 9978}                  
+\email{huaol@mit.edu}                               
+\homepage{www.huao-li.com}
+\social[github]{romanlee6}
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+\usepackage{xcolor}
+
+\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+% \hypersetup{urlcolor=blue}
+\makecvtitle
+\definecolor{blue}{rgb}{0.22,0.45,0.70}
+
+\section{Research Interests}
+\textbf{Human-AI Teamwork}: Adaptation, Communication, Trust, Theory of Mind;\\
+\textbf{Multi-agent Systems}: Multi-agent Reinforcement Learning, Embodied LLM Agent;\\
+\textbf{Human-centered AI}: Explainable AI, Trustworthy AI, Normative Reasoning
+
+
+
+
+
+
+
+\section{Education}
+
+% \vspace{5pt}
+
+%\subsection{Degree Programs}
+
+%\vspace{5pt}
+
+
+
+
+
+\cventry{Aug. 2019 - Aug 2025}{Ph.D. in Intelligent Systems}{University of Pittsburgh}{Pittsburgh, PA}{}{
+\underline{Thesis}: A Computational Framework for Efficient Human-agent Teamwork\\
+\underline{Committee members}: Michael Lewis, Na Du, Daqing He, Katia Sycara (CMU)
+}
+%1\vspace{2pt}
+
+
+
+\cventry{Aug. 2017 -- May 2019}{Master of Science in Information Science}{University of Pittsburgh}{Pittsburgh, PA}{}{
+\underline{Thesis}: A Computational Model of Human Trust in Supervisory Control of Robotic Swarms
+}
+%1\vspace{2pt}
+
+\cventry{Sep. 2013 -- June 2017}{Bachelor of Science in Applied Psychology}{Zhejiang University}{Hangzhou, China}{}{
+\underline{Thesis}: The Influence of Pictorial Realism on the Comprehension of Safety Briefing Cards
+}
+
+
+\section{Fellowships and Awards}
+
+\begin{itemize}
+
+% \vspace{4pt}
+\item{MIT Postdoctoral Fellowship for Engineering Excellence (6 recipients globally)\hfill 2025}
+\item{Best Paper Award in GenAI-HRI workshop at Robotics: Science and Systems (Top 1)\hfill 2025}
+\item{Best Paper Award at AAAI conference on Artificial Intelligence, Ethics, and Society (Top 1\%)\hfill 2018}
+% \item{Research Assistant Scholarship at University of Pittsburgh (Cover full tuition)\hfill 2017--2025}
+%\item{China National Training Program of Innovation for College Students (\$1500)\hfill 2016}
+% \item{Excellent Student Leader at Zhejiang University \hfill 2016}
+
+\end{itemize}
+
+\section{Research Experience}
+
+
+\cventry{Sep. 2025 -- Current}{Postdoctoral Fellow}{Massachusetts Institute of Technology}{Cambridge, MA}{Advised by Prof. Chuchu Fan}{\vspace{2pt}
+\begin{itemize}
+\item{Develop novel reinforcement learning algorithms for agents to learn from social interaction in multi-agent settings.}
+\vspace{2pt}
+\item{Enable natural and adaptive interaction between humans and robots in industrial operational environments based on visual language models (VLMs) and control algorithms.}
+\end{itemize}}
+
+
+
+% \vspace{4pt}
+
+\cventry{Aug. 2017 -- Aug. 2025}{Research Assistant}{Carnegie Mellon University}{Pittsburgh, PA}{Advised by Prof. Katia Sycara and Prof. Michael Lewis}{
+\vspace{2pt}
+\begin{itemize}
+\item{Apply human-centered research methods to facilitate the interaction between humans and artificial agents.}
+\vspace{2pt}
+\item{Researched mutual adaptation in human-agent teams and proposed a computational framework for RL agents to adopt complementary policies in real-time}
+\vspace{2pt}
+\item{Evaluated LLM-based agents' embodied interaction and Theory of Mind (ToM) capabilities in multi-agent collaborations}
+\vspace{2pt}
+\item{Designed visual and natural language explanations to improve the transparency of RL agents' decision making processes}
+% \vspace{2pt}
+% \item{Surveyed people’s norm framework towards domestic service robots in particular social contexts, and built a computational model using Decision Tree and Markov Decision Process}
+\end{itemize}}
+% \vspace{2pt}
+% \item{Designed visual and natural language explanation models to facilitate the transparency of deep reinforcement learning (DRL) agents' decision making processes}
+
+
+\newpage
+
+
+
+
+
+
+% \vspace{4pt}
+
+
+% \cventry{Aug. 2017 -- Current}{Research Assistant}{Usability Lab, University of Pittsburgh}{Pittsburgh, PA}{Advised by Prof. Michael Lewis}{
+% \vspace{2pt}
+% \begin{itemize}
+
+% \vspace{2pt}
+% \item{Built a computational model of human trust in the interaction with robotic swarms using Kalman filter}
+% \vspace{2pt}
+% \item{Designed a sequential Theory of Mind (ToM) model based on RNN and BERT to infer human hidden beliefs in team tasks}
+% \vspace{2pt}
+% \item{Implemented a personalized decision aid system based on ToM modeling and Explainable RL.}
+% \end{itemize}
+% }
+
+% \vspace{4pt}
+
+
+\cventry{May 2015 -- June 2017}{Research Assistant}{Zhejiang University}{Hangzhou, China}{Advised by Prof. Zaifeng Gao}{\vspace{2pt}
+\begin{itemize}
+\item{Designed and implemented an eye-tracking experiment to confirm the processing priority of social interactive biological motions in working memory}
+\vspace{2pt}
+\item{Researched drivers’ cognitive distraction while using ride-sharing apps in the simulated driving environment, by analyzing multimodal data from eye tracking, driving behaviors and surveys}
+\vspace{2pt}
+\item{Improved the intelligibility of airline safety briefing cards by redesigning the pictorial based on user tests}
+% * <huao.roman.li@gmail.com> 2018-07-16T08:39:06.247Z:
+% 
+% >  based on user tests
+% based on quantitative user testing.
+% 
+% ^.
+\end{itemize}}
+
+\section{Working Experience}
+
+\cventry{Jan. 2024 -- Aug 2024}{Honda Research Institute USA}{Research Scientist Internship}{Ann Arbor, MI}{}{\vspace{2pt}
+\begin{itemize}
+\item{Develop novel techniques to allow multi-agent reinforcement learning (MARL) agents to collaborate and communicate with humans in team tasks based on representation learning and large language models (LLMs).}
+\vspace{2pt}
+\item{Collaborate with a multidisciplinary team of researchers to design and implement cutting-edge solutions.}
+\end{itemize}}
+
+\cventry{Dec. 2015 -- Aug. 2016}{International User Experience Design, Alibaba Group}{User Experience Researcher Internship}{Hangzhou, China}{}{\vspace{2pt}
+\begin{itemize}
+\item{Collaborated with front-end engineers, interaction designers and product managers to locate user experience issues of AliExpress.com}
+\vspace{2pt}
+\item{Designed user study protocols and assigned in-lab tests/interviews to over 90 users from 14 countries}
+\vspace{2pt}
+\item{Analyzed quantitative and qualitative test data and delivered constructive design suggestions to the team}
+\end{itemize}}
+
+\section{Signature Publications}
+
+
+\subsection{Book Chapter}
+\begin{itemize}
+
+\item{Lewis, M., \textbf{Li, H.},  \& Sycara, K., (2021) Deep learning, transparency, and trust in human robot teamwork. In \textit{Trust in Human-Robot Interaction (pp. 321-352).} Academic Press. }
+
+
+\end{itemize}
+\subsection{Peer Reviewed Journal Papers}
+\begin{itemize}
+
+\item{Karten, S., Tucker, M., \textbf{Li, H.},  Kailas, S., Lewis, M., \& Sycara, K., (2023) Interpretable Learned Emergent Communication for Human-Agent Teams. In \textit{IEEE Transactions on Cognitive and Development Systems} \textbf{(IEEE T-CDS)}}
+
+\item{\textbf{Li, H.}, Ni, T., Agrawal, S., Jia, F., Raja, S., Gui, Y., Hughes, D., Lewis, M. and Sycara, K., (2021). Individualized Mutual Adaptation in Human-Agent Teams.  In \textit{IEEE Transactions on Human Machine Systems \textbf{(IEEE T-HMS)}}. }
+
+
+\item{Nam, C.,  Walker, P., \textbf{Li, H.}, Lewis, M., \& Sycara, K., (2020). Models of Trust in Human Control of Swarms With Varied Levels of Autonomy. In \textit{IEEE Transactions on Human-Machine Systems \textbf{(IEEE T-HMS)}}.}
+
+
+
+\item{ Fang, T., \textbf{Li, H.*}, Ma, Z., Peng, Z.,  Xie, Y., Zhu, C., \& Gao, Z.*, (2017). The Influence of Pictorial Realism on the Comprehension of Safety Briefing Cards. \textit{Chinese Journal of Applied Psychology, 23(4): 318-326}. \textbf{(Corresponding Author)}}
+
+
+
+\end{itemize}
+\subsection{Peer Reviewed Conference Papers}
+\begin{itemize}
+\item{ Li, B., Shi, S., Romeo. L., \textbf{Li, H.},  Xie, Y., Kim, W.,  Nikolaidis, S., Lewis, M., Sycara, K., \& Stepputtis, S. (2025). Adaptively Coordinating with Novel Partners via Learned Latent Strategies. \textit{The 39th Conference on Neural Information Processing Systems.\textbf{(NeurIPS 2025)}} }
+
+\item{ Li, B., Shi, S., Romeo. L., \textbf{Li, H.},  Xie, Y., Kim, W.,  Nikolaidis, S., Lewis, M., Sycara, K., \& Stepputtis, S. (2025). Modeling Latent Partner Strategies for Adaptive Zero-Shot Human-Agent Collaboration. \textit{In GenAI-HRI workshop at RSS 2025. \textbf{(Best Paper Award)}} }
+
+\item{\textbf{Li, H.}, Mahjoub, H. N., Lee, K., Chalaki, B., Tadiparthi, V.,  Moradi-Pari, E., Lewis, M., \& Sycara, K., (2024). Language Grounded Multi-agent Reinforcement Learning with Human-interpretable Communication. \textit{The 38th Conference on Neural Information Processing Systems \textbf{(NeurIPS 2024)}} }
+
+\item{\textbf{Li, H.}, Chong, Y., Stepputtis, S., Campbell, J., Hughes D., Lewis, M., Sycara, K., (2023). Theory of Mind for Multi-Agent Collaboration via Large Language Models. \textit{Conference on Empirical Methods in Natural Language Processing \textbf{(EMNLP 2023)}}}
+
+\item{\textbf{Li, H.},  Fan, Y., Zheng, K., Lewis, M., Sycara, K., (2023). Personalized Decision Supports based on Theory of Mind Modeling and Explainable Reinforcement Learning. \textit{IEEE International Conference on Systems, Man, and Cybernetics \textbf{(SMC 2023)}}}
+
+\item{\textbf{Li, H.}, Oguntola, I., Hughes D., Lewis, M., Sycara, K., (2022). Theory of Mind Modeling in Search and Rescue Teams. \textit{IEEE International Conference on Robot and Human Interactive Communication \textbf{(RO-MAN 2022)}}}
+
+
+\item{Tucker, M., \textbf{Li, H.}, Agrawal, S., Hughes D., Lewis, M., Sycara, K. Shah, J., (2021). Emergent Discrete Communication in Semantic Spaces. \textit{Conference on Neural Information Processing Systems \textbf{(NeurIPS 2021)}} }
+
+\item{\textbf{Li, H.}, Le, L., Chis, M., Zheng, K., Hughes D., Lewis, M., Sycara, K., (2021). Sequential Theory of Mind Modeling in Team Search and Rescue Tasks. \textit{AAAI Symposium of Computational Theory of Mind for Human-Machine Teams}}
+
+\item{Deka, A., Luo, W., \textbf{Li, H.}, Lewis, M., Sycara, K., (2021). Hiding Leader's Identity in Leader-Follower Navigation through Multi-Agent Reinforcement Learning. In \textit{Proceedings of 2021 IEEE/RSJ International Conference on Intelligent Robots and Systems \textbf{(IROS 2021)} }}
+
+\item{\textbf{Li, H.}, Lewis, M., Sycara, K., (2020). A Kalman estimation model of human trust in supervisory control of robotic swarms. In \textit{Proceedings of 64th Annual Meeting of the Human Factors and Ergonomics Society \textbf{(HFES 2020)} }}
+
+\item{\textbf{Li, H.}, Hughes D., Lewis, M., Sycara, K., (2020). Individual adaptation in teamwork. In \textit{Abstract proceedings of 42nd Annual Meeting of the Cognitive Science Society  \textbf{(CogSci 2020)} }}
+
+\item{\textbf{Li, H.}, Milani, S., Krishnamoorthy, V., Lewis, M., \& Sycara, K., (2019). Perceptions of Domestic Robots' Normative Behavior Across Cultures. In \textit{AAAI conference on Artificial Intelligence, Ethics, and Society \textbf{(AIES 2019)}}}  
+
+
+\item{\textbf{Li, H.}, Bang, J., Nagavalli, S., Nam, C., Lewis, M., \& Sycara, K., (2018). Human Interaction Through an Optimal Sequencer to Control Robotic Swarms. \textit{IEEE International Conference on Systems, Man, and Cybernetics \textbf{(SMC 2018)}}} 
+
+
+
+\item{Iyer, R., Li, Y., \textbf{Li, H.}, Lewis, M., Sundar, R., \& Sycara, K., (2018). Transparency and Explanation in Deep Reinforcement Learning Neural Networks. \textit{AAAI conference on Artificial Intelligence, Ethics, and Society \textbf{(AIES 2018)}} \textbf{(Best Paper Award)}}
+
+
+
+
+\end{itemize}
+
+
+
+% \section{Research Experience}
+
+
+% \cventry{Jan. 2024 -- Aug 2024}{Research Scientist Internship}{Honda Research Institute USA}{Ann Arbor, MI}{Advised by Dr. Hossein Nourkhiz Mahjoub}{\vspace{2pt}
+% \begin{itemize}
+% \item{Develop novel techniques to allow multi-agent reinforcement learning (MARL) agents to collaborate and communicate with humans in team tasks based on representation learning and large language models (LLMs).}
+% \vspace{2pt}
+% \item{Collaborate with a multidisciplinary team of researchers to design and implement cutting-edge solutions}
+% \end{itemize}}
+
+
+% % \vspace{4pt}
+
+% \cventry{Aug. 2017 -- Current}{Research Assistant}{Advanced Agent-Robotics Technology Lab, Carnegie Mellon University}{Pittsburgh, PA}{Advised by Prof. Katia Sycara}{
+% \vspace{2pt}
+% \begin{itemize}
+% \item{Researched mutual adaptation in human-agent teams and proposed a computational framework for RL agents to adopt complementary policies in real-time}
+% \vspace{2pt}
+% \item{Explored effects of MARL learned sparse communication on human agent teaming performance and human cognitive load}
+% \vspace{2pt}
+% \item{Evaluated LLM-based agents' embodied interaction and Theory of Mind (ToM) capabilities in multi-agent collaborations}
+% \vspace{2pt}
+% \item{Designed visual and natural language explanations to improve the transparency of RL agents' decision making processes}
+% \end{itemize}}
+% % \vspace{2pt}
+% % \item{Designed visual and natural language explanation models to facilitate the transparency of deep reinforcement learning (DRL) agents' decision making processes}
+% % \vspace{2pt}
+% % \item{Surveyed people’s norm framework towards domestic service robots in particular social contexts, and built a computational model using Decision Tree and Markov Decision Process}
+
+
+
+
+
+
+
+
+% % \vspace{4pt}
+
+
+% \cventry{Aug. 2017 -- Current}{Research Assistant}{Usability Lab, University of Pittsburgh}{Pittsburgh, PA}{Advised by Prof. Michael Lewis}{
+% \vspace{2pt}
+% \begin{itemize}
+% \item{Designed and conducted human subject experiments to study crucial issues in Human-AI Interaction, including trust, transparency, levels of automation and loss of situational awareness}
+% \vspace{2pt}
+% \item{Built a computational model of human trust in the interaction with robotic swarms using Kalman filter}
+% \vspace{2pt}
+% \item{Designed a sequential Theory of Mind (ToM) model based on RNN and BERT to infer human hidden beliefs in team tasks}
+% \vspace{2pt}
+% \item{Implemented a personalized decision aid system based on ToM modeling and Explainable RL.}
+% \end{itemize}
+% }
+
+% % \vspace{4pt}
+
+
+% \cventry{May 2015 -- June 2017}{Research Assistant}{Natural Interaction Lab, Zhejiang University}{Hangzhou, China}{Advised by Prof. Zaifeng Gao}{\vspace{2pt}
+% \begin{itemize}
+% \item{Designed and implemented an eye-tracking experiment to confirm the processing priority of social interactive biological motions in working memory}
+% \vspace{2pt}
+% \item{Researched drivers’ cognitive distraction while using ride-sharing apps in the simulated driving environment, by analyzing multimodal data from eye tracking, driving behaviors and surveys}
+% \vspace{2pt}
+% \item{Improved the intelligibility of airline safety briefing cards by redesigning the pictorial based on user tests}
+% % * <huao.roman.li@gmail.com> 2018-07-16T08:39:06.247Z:
+% % 
+% % >  based on user tests
+% % based on quantitative user testing.
+% % 
+% % ^.
+% \end{itemize}}
+
+
+
+
+
+
+
+
+
+
+% \section{Publications (Continue)}
+
+% \subsection{Peer Reviewed Journal Papers}
+% \begin{itemize}
+% \item{ Fang, T., \textbf{Li, H.*}, Ma, Z., Peng, Z.,  Xie, Y., Zhu, C., \& Gao, Z.*, (2017). The Influence of Pictorial Realism on the Comprehension of Safety Briefing Cards. \textit{Chinese Journal of Applied Psychology, 23(4): 318-326}. \textbf{(Corresponding Author)}}
+% \end{itemize}
+% \subsection{Peer Reviewed Conference Papers}
+% \begin{itemize}
+
+
+% \item{Guo, X., \textbf{Li, H.}, Peng, A., Jia, L., Rishi, B.,  Lewis, M., (2024). Determining Human Perceptual Envelope in Fixed Wing UAV Surveillance. \textit{4th IEEE International Conference on Human-Machine Systems (ICHMS 2024)}}
+
+% \item{Jia, L., Peng, A., \textbf{Li, H.}, Guo, X.  Lewis, M., (2024). Situation Theory Based Query Generation for Determining Situation Awareness Across Distributed Data Streams. \textit{4th IEEE International Conference on Human-Machine Systems (ICHMS 2024)}}
+
+% \item{Hughes, D., \textbf{Li, H.}, Chis, M., Stepputtis, S., Zheng, K., Campbell, J., Sycara, K. Lewis, M.  (2023)."A Framework for Intervention Based Team Support in Time Critical Tasks," In \textit{The 2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC 2023)}}
+
+
+% \item{Chis, M., \textbf{Li, H.}, Zheng, K., Lewis, M., Hughes, D., Sycara, K. (2023). The Cognitive Load – Productivity Tradeoff in Task Switching. Proceedings of \textit{the Human Factors and Ergonomics Society Annual Meeting, 67(1), 666-671. (HFES 2023)}}
+
+
+
+
+% \item{\textbf{Li, H.}, Zheng, K., Sycara, K., Lewis, M. (2021). Human Theory of Mind Inference in Search and Rescue Tasks. In \textit{Proceedings of the 65th Annual Meeting of the Human Factors and Ergonomics Society. (HFES 2021)} }
+
+
+
+% \item{Deka, A., Sycara, K., Walker, P., \textbf{Li, H.}, Lewis, M. (2021). Human vs. Deep Neural Network Performance at a Leader Identification Task. In \textit{Proceedings of 65th Annual Meeting of the Human Factors and Ergonomics Society (HFES 2021)} }
+
+
+
+% \item{\textbf{Li, H.}, Ni, T., Agrawal, S., Hughes D., Lewis, M., Sycara, K., (2020). Team Synchronization and Individual Contributions in Coop-Space Fortress. In \textit{Proceedings of 64th Annual Meeting of the Human Factors and Ergonomics Society (HFES 2020) }}
+
+% \item{Jain V., Jena R., \textbf{Li, H.}, Gupta T., Hughes D., Lewis, M., Sycara, K., (2020). Predicting human strategies in simulated search and rescue task. In \textit{Artificial Intelligence for Humanitarian Assistance and Disaster Response Workshop, (AI-HADR NeurIPS 2020) }}
+
+% \item{Nam, C., \textbf{Li, H.}, Li, S., Lewis, M., \& Sycara, K., (2018). Trust of Humans in Supervisory Control of Swarm Robots with Varied Levels of Autonomy. In \textit{Proceedings of IEEE International Conference on Systems, Man, and Cybernetics (SMC 2018)}}
+
+
+
+
+% \end{itemize}
+
+
+\section{Invited Talks}
+
+
+\cventry{Oct. 2025}{MIT LIDS Nexus Postdoc Meeting}{Language Grounded MARL with Human-interpretable Communication}{Cambridge, MA}{}{}
+\cventry{July. 2025}{MIT Realm Lab Meeting}{A Computational Framework for Efficient Human-agent Teamwork}{Cambridge, MA}{}{}
+\cventry{March. 2023}{The 67th International Annual Meeting of Human Factors and Ergonomics Society}{Sentiment analysis of Artificial dvisors in Search and Rescue Tasks}{Washington, D.C.}{}{}
+\cventry{Oct. 2023}{2023 IEEE International Conference on Systems, Man, and Cybernetics}{Personalized Decision Supports based on ToM Modeling and Explainable RL}{Oahu, HI}{}{}
+\cventry{Aug. 2023}{31st IEEE International Conference on Robot \& Human Interactive Communication}{Theory of Mind Modeling in Search and Rescue Teams}{Naples, Italy}{}{}
+\cventry{Nov. 2021}{AAAI Symposium of Computational Theory of Mind for Human-Machine Teams}{Sequential Theory of Mind Modeling in Team Search and Rescue Tasks}{Virtual}{}{}
+\cventry{Oct. 2021}{65th Annual Meeting of the Human Factors and Ergonomics Society}{Human Theory of Mind Inference in Search and Rescue Tasks}{Baltimore, MD}{}{}
+\cventry{Oct. 2020}{64th Annual Meeting of the Human Factors and Ergonomics Society}{A Kalman estimation model of human trust in supervisory control of robotic swarms}{Virtual}{}{}
+\cventry{Oct. 2020}{64th Annual Meeting of the Human Factors and Ergonomics Society}{Team Synchronization and Individual Contributions in Coop-Space Fortress}{Virtual}{}{}
+
+
+
+\section{Professional Services}
+
+% \vspace{4pt}
+
+\begin{itemize}
+
+\item{MIT LIDS Student Conference 2026 \hfill Co-chair}
+% \item{2020 SCI Tenure search committee, University of Pittsburgh  \hfill Student Representative}
+\item{Fall 2019 Human Robot Interaction, University of Pittsburgh  \hfill Teaching Assistant}
+\item{Behaviour \& Information Technology, Scientific Reports, IJCHI, T-HMS, PLOS One \hfill Journal Reviewer}
+\item{ICLR, NeurIPS, AAAI, EMNLP, ICRA, IROS, SMC, HFES\hfill Conference Reviewer}
+% \item{IEEE Robotics and Automation Society \hfill Student Membership}
+% \item{IEEE Systems, Man and Cybernetics Society \hfill Student Membership}
+% \item{Human Factors and Ergonomics Society \hfill Student Membership}
+% \item{Cognitive Science Society \hfill Student Membership}
+\end{itemize}
+
+
+
+
+% \section{Technical skills}
+
+
+
+% \begin{itemize}
+
+% \item \textbf{Psychology:} Experimental design, Survey design, Qualitative coding, Eye-tracking, Statistical analysis, Time series analysis, Cognitive Modeling, Crowdsourcing data collection
+
+
+
+% \item \textbf{Artificial Intelligence:} Machine Learning, Natural Language Processing, Large Language Models, Deep Reinforcement Learning, Multi-Agent Systems, Human-robot Interaction
+
+
+
+% \item \textbf{Programming:} Python, HTML, JavaScript, CSS, SQL, R
+
+
+% \end{itemize}
+
+
+\section{References}
+
+
+
+\begin{itemize}
+\item Prof. Chuchu Fan, Massachusetts Institute of Technology \hfill \href{mailto:chuchu@mit.edu}{chuchu@mit.edu}
+\item Prof. Michael Lewis, University of Pittsburgh \hfill \href{mailto:ml@sis.pitt.edu}{ml@sis.pitt.edu}
+\item Prof. Katia Sycara, Carnegie Mellon University\hfill \href{mailto:sycara@andrew.cmu.edu}{sycara@andrew.cmu.edu}
+\item Dr. Hossein Nourkhiz Mahjoub, Honda Research Institute \hfill  \href{mailto:hossein_nourkhizmahjoub@honda-ri.com}{hossein\_nourkhizmahjoub@honda-ri.com}
+
+
+
+
+
+\end{itemize}
+
+\end{document}
+
+
+%% end of file `template.tex'.

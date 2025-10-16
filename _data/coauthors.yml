@@ -1,34 +1,46 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"katia":
+  - firstname: ["Katia", "K.", "K. S.", "Katia Sycara"]
+    url: https://www.ri.cmu.edu/ri-faculty/katia-sycara/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"mike":
+  - firstname: ["Michael", "M.", "M. L.", "Michael Lewis"]
+    url: https://www.dins.pitt.edu/people/michael-lewis
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"dana":
+  - firstname: ["Dana", "D.", "D. M.", "Dana Hughes"]
+    url: https://www.ri.cmu.edu/ri-people/dana-hughes/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"simon":
+  - firstname: ["Simon Stepputtis", "S.", "S. M.", "Simon Stepputtis"]
+    url: https://simonstepputtis.com/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"hossain":
+  - firstname: ["Hossein Nourkhiz Mahjoub", "H.", "H. N.", "Hossein Nourkhiz Mahjoub"]
+    url: https://www.linkedin.com/in/hossein-nourkhiz-mahjoub-46933446
+"changjoo":
+  - firstname: ["Changjoo", "C.", "C. J.", "Changjoo Nam"]
+    url: https://sites.google.com/site/changjoonam
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"joseph":
+  - firstname: ["Joseph", "J.", "J. C.", "Joseph Campbell"]
+    url: https://joe-campbell.github.io/website/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"tianwei":
+  - firstname: ["Tianwei", "T.", "T. N.", "Tianwei Ni"]
+    url: http://twni2016.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"mycal":
+  - firstname: ["Mycal", "M.", "M. T.", "Mycal Tucker"]
+    url: http://mycaltucker.com/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"seth":
+  - firstname: ["Seth", "S.", "S. K.", "Seth Karten"]
+    url: https://sethkarten.ai/
+
+"julie":
+  - firstname: ["Julie", "J.", "J. S.", "Julie Shah"]
+    url: http://interactive.mit.edu/
+
+"shen":
+  - firstname: ["Shen", "S.", "S. L.", "Shen Li"]
+    url: https://shenlirobot.github.io/
