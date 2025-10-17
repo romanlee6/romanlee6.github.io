@@ -1,46 +1,50 @@
-"katia":
+"sycara":
   - firstname: ["Katia", "K.", "K. S.", "Katia Sycara"]
     url: https://www.ri.cmu.edu/ri-faculty/katia-sycara/
 
-"mike":
+"lewis":
   - firstname: ["Michael", "M.", "M. L.", "Michael Lewis"]
     url: https://www.dins.pitt.edu/people/michael-lewis
 
-"dana":
+"hughes":
   - firstname: ["Dana", "D.", "D. M.", "Dana Hughes"]
     url: https://www.ri.cmu.edu/ri-people/dana-hughes/
 
-"simon":
-  - firstname: ["Simon Stepputtis", "S.", "S. M.", "Simon Stepputtis"]
+"stepputtis":
+  - firstname: ["Simon", "S.", "S. M.", "Simon Stepputtis"]
     url: https://simonstepputtis.com/
 
-"hossain":
-  - firstname: ["Hossein Nourkhiz Mahjoub", "H.", "H. N.", "Hossein Nourkhiz Mahjoub"]
+"mahjoub":
+  - firstname: ["Hossein", "H.", "H. N.", "Hossein Nourkhiz Mahjoub"]
     url: https://www.linkedin.com/in/hossein-nourkhiz-mahjoub-46933446
-"changjoo":
+"nam":
   - firstname: ["Changjoo", "C.", "C. J.", "Changjoo Nam"]
     url: https://sites.google.com/site/changjoonam
 
-"joseph":
+"campbell":
   - firstname: ["Joseph", "J.", "J. C.", "Joseph Campbell"]
     url: https://joe-campbell.github.io/website/
 
-"tianwei":
+"ni":
   - firstname: ["Tianwei", "T.", "T. N.", "Tianwei Ni"]
     url: http://twni2016.github.io/
 
-"mycal":
+"tucker":
   - firstname: ["Mycal", "M.", "M. T.", "Mycal Tucker"]
     url: http://mycaltucker.com/
 
-"seth":
+"karten":
   - firstname: ["Seth", "S.", "S. K.", "Seth Karten"]
     url: https://sethkarten.ai/
 
-"julie":
+"shah":
   - firstname: ["Julie", "J.", "J. S.", "Julie Shah"]
     url: http://interactive.mit.edu/
 
-"shen":
+"li":
   - firstname: ["Shen", "S.", "S. L.", "Shen Li"]
     url: https://shenlirobot.github.io/
+
+"xie":
+  - firstname: ["Yaqi", "Y.", "Y. X.", "Yaqi Xie"]
+    url: https://yaqi-xie.me/
