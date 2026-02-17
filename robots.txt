@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://romanlee6.github.io/sitemap.xml
+Sitemap: https://www.huao-li.com/sitemap.xml
