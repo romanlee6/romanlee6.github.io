@@ -27,8 +27,8 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div role="alert" style="font-size: 1.05rem; color: #fff; background: linear-gradient(90deg, #e8590c, #f08c00); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-  <i class="fa-solid fa-briefcase"></i> <strong>I am on the job market!</strong> I am looking for academic and industry research positions starting in 2027. Feel free to reach out.
+<div role="alert" style="display: flow-root; font-size: 1.05rem; color: #fff; background: linear-gradient(90deg, #c2410c, #d9480f); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+  <i class="fa-solid fa-briefcase" style="color: #fff;"></i> <strong style="color: #fff;">I am on the job market!</strong> <span style="color: #fff;">I am looking for academic and industry research positions starting in 2027. Feel free to reach out.</span>
 </div>
 
 Hi, I am a [Postdoctoral Fellow for Engineering Excellence](https://engineering.mit.edu/the-mit-postdoctoral-fellowship-program-for-engineering-excellence/) in the [Laboratory for Information and Decision Systems](https://lids.mit.edu/) (LIDS) at MIT. I work with Prof. [Chuchu Fan](https://chuchu.mit.edu/) and the [REALM lab](https://aeroastro.mit.edu/realm/) on human-centered AI for robotics. 
