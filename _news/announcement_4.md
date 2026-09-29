@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <a href="https://arxiv.org/abs/2609.34270">Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning</a> got accepted at CoRL 2026! Check out the <a href="https://www.huao-li.com/bal/">project website</a>.
+Our paper <a href="https://arxiv.org/abs/2609.34270">Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning</a> got accepted at CoRL 2026! See you in Austin!

@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div class="alert alert-info" role="alert" style="font-size: 1.05rem;">
+<div role="alert" style="font-size: 1.05rem; color: #fff; background: linear-gradient(90deg, #e8590c, #f08c00); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   <i class="fa-solid fa-briefcase"></i> <strong>I am on the job market!</strong> I am looking for academic and industry research positions starting in 2027. Feel free to reach out.
 </div>
 
