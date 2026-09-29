@@ -37,6 +37,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-modeling-latent-partner-strategies-for-adaptive-zero-shot-human-agent-collaboration-get-accpeted-at-neurips-2025-see-you-in-san-diego",
           title: 'Our paper Modeling Latent Partner Strategies for Adaptive Zero-Shot Human-Agent Collaboration get accpeted...',
           description: "",
+          section: "News",},{id: "news-our-paper-bayesian-active-learning-for-intent-disambiguation-in-interactive-robot-planning-got-accepted-at-corl-2026-check-out-the-project-website",
+          title: 'Our paper Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning got...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
