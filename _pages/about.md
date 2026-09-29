@@ -27,6 +27,10 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
+<div class="alert alert-info" role="alert" style="font-size: 1.05rem;">
+  <i class="fa-solid fa-briefcase"></i> <strong>I am on the job market!</strong> I am looking for academic and industry research positions starting in 2027. Feel free to reach out.
+</div>
+
 Hi, I am a [Postdoctoral Fellow for Engineering Excellence](https://engineering.mit.edu/the-mit-postdoctoral-fellowship-program-for-engineering-excellence/) in the [Laboratory for Information and Decision Systems](https://lids.mit.edu/) (LIDS) at MIT. I work with Prof. [Chuchu Fan](https://chuchu.mit.edu/) and the [REALM lab](https://aeroastro.mit.edu/realm/) on human-centered AI for robotics. 
 
 I received my Ph.D. in Intelligent Systems and M.S. in Information Science from the University of Pittsburgh, where I worked with Prof. [Michael Lewis](http://www.pitt.edu/~cmlewis/) and collaborated closely with Prof. [Katia Sycara](http://www.cs.cmu.edu/~sycara/) at Robotics Institute at Carnegie Mellon University (CMU). I have also worked as a Research Intern at the Honda Research Institute USA and Alibaba Group. Prior to coming to the US, I obtained my Bachelor's degree in Applied Psychology at Zhejiang University, and worked with Prof. [Zaifeng Gao](https://person.zju.edu.cn/en/zaifengg).  
