@@ -27,7 +27,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div role="alert" style="display: flow-root; font-size: 1.05rem; color: #fff; background: linear-gradient(90deg, #c2410c, #d9480f); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
+<div role="alert" style="display: flow-root; font-size: 1.05rem; color: #fff; background: linear-gradient(90deg, #3f5a78, #56718f); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
   <i class="fa-solid fa-briefcase" style="color: #fff;"></i> <strong style="color: #fff;">I am on the job market!</strong> <span style="color: #fff;">I am looking for academic and industry research positions starting in 2027. Feel free to reach out.</span>
 </div>
 
