@@ -28,16 +28,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-i-recived-the-mit-postdoctoral-fellowship-program-for-engineering-excellence",
-          title: 'I recived the MIT Postdoctoral Fellowship Program for Engineering Excellence.',
-          description: "",
-          section: "News",},{id: "news-i-defenced-my-ph-d-thesis-a-computational-framework-for-efficient-human-agent-teamwork-at-university-of-pittsburgh",
+            },},{id: "news-i-defenced-my-ph-d-thesis-a-computational-framework-for-efficient-human-agent-teamwork-at-university-of-pittsburgh",
           title: 'I defenced my Ph.D. thesis A Computational Framework for Efficient Human-Agent Teamwork at...',
           description: "",
-          section: "News",},{id: "news-our-paper-modeling-latent-partner-strategies-for-adaptive-zero-shot-human-agent-collaboration-get-accpeted-at-neurips-2025-see-you-in-san-diego",
-          title: 'Our paper Modeling Latent Partner Strategies for Adaptive Zero-Shot Human-Agent Collaboration get accpeted...',
+          section: "News",},{id: "news-i-joined-mit-as-an-engineering-excellence-postdoctoral-fellow",
+          title: 'I joined MIT as an Engineering Excellence Postdoctoral Fellow!',
           description: "",
-          section: "News",},{id: "news-our-paper-bayesian-active-learning-for-intent-disambiguation-in-interactive-robot-planning-got-accepted-at-corl-2026-and-was-selected-as-a-spotlight-paper-top-4-see-you-in-austin",
+          section: "News",},{id: "news-our-paper-modeling-latent-partner-strategies-for-adaptive-zero-shot-human-agent-collaboration-got-accepted-at-neurips-2025-see-you-in-san-diego",
+          title: 'Our paper Modeling Latent Partner Strategies for Adaptive Zero-Shot Human-Agent Collaboration got accepted...',
+          description: "",
+          section: "News",},{id: "news-our-paper-bayesian-active-learning-for-intent-disambiguation-in-interactive-robot-planning-got-accepted-at-corl-2026-as-a-spotlight-paper-top-4-see-you-in-austin",
           title: 'Our paper Bayesian Active Learning for Intent Disambiguation in Interactive Robot Planning got...',
           description: "",
           section: "News",},{
