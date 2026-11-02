@@ -97,9 +97,7 @@
       "studyType": "M.S.",
       "startDate": "2017-08-01",
       "endDate": "2019-05-01",
-      "courses": [
-        "Thesis: A Computational Model of Human Trust in Supervisory Control of Robotic Swarms"
-      ]
+      "courses": ["Thesis: A Computational Model of Human Trust in Supervisory Control of Robotic Swarms"]
     },
     {
       "institution": "Zhejiang University",
@@ -109,9 +107,7 @@
       "studyType": "B.S.",
       "startDate": "2013-09-01",
       "endDate": "2017-06-01",
-      "courses": [
-        "Thesis: The Influence of Pictorial Realism on the Comprehension of Safety Briefing Cards"
-      ]
+      "courses": ["Thesis: The Influence of Pictorial Realism on the Comprehension of Safety Briefing Cards"]
     }
   ],
   "awards": [
@@ -236,40 +232,24 @@
     {
       "name": "Human-AI Teamwork",
       "level": "",
-      "keywords": [
-        "Adaptation",
-        "Communication",
-        "Trust",
-        "Theory of Mind"
-      ]
+      "keywords": ["Adaptation", "Communication", "Trust", "Theory of Mind"]
     },
     {
       "name": "Multi-agent Systems",
       "level": "",
-      "keywords": [
-        "Multi-agent Reinforcement Learning",
-        "Embodied LLM Agents"
-      ]
+      "keywords": ["Multi-agent Reinforcement Learning", "Embodied LLM Agents"]
     },
     {
       "name": "Human-centered AI",
       "level": "",
-      "keywords": [
-        "Explainable AI",
-        "Trustworthy AI",
-        "Normative Reasoning"
-      ]
+      "keywords": ["Explainable AI", "Trustworthy AI", "Normative Reasoning"]
     }
   ],
   "languages": [],
   "interests": [
     {
       "name": "Research Interests",
-      "keywords": [
-        "Human-AI Teamwork",
-        "Multi-agent Systems",
-        "Human-centered AI"
-      ]
+      "keywords": ["Human-AI Teamwork", "Multi-agent Systems", "Human-centered AI"]
     }
   ],
   "references": [

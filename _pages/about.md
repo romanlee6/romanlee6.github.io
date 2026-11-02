@@ -30,7 +30,7 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I am a [Postdoctoral Fellow for Engineering Excellence](https://engineering.mit.edu/the-mit-postdoctoral-fellowship-program-for-engineering-excellence/) in the [Laboratory for Information and Decision Systems](https://lids.mit.edu/) (LIDS) at MIT. I work with Prof. [Chuchu Fan](https://chuchu.mit.edu/) and the [REALM lab](https://aeroastro.mit.edu/realm/) on human-centered AI for robotics. 
+Hi, I am a [Postdoctoral Fellow for Engineering Excellence](https://engineering.mit.edu/the-mit-postdoctoral-fellowship-program-for-engineering-excellence/) in the [Laboratory for Information and Decision Systems](https://lids.mit.edu/) (LIDS) at MIT. I work with Prof. [Chuchu Fan](https://chuchu.mit.edu/) and the [REALM lab](https://aeroastro.mit.edu/realm/) on human-centered AI for robotics.
 
 I received my Ph.D. in Intelligent Systems from University of Pittsburgh, where I worked with Prof. [Michael Lewis](http://www.pitt.edu/~cmlewis/) and Prof. [Katia Sycara](http://www.cs.cmu.edu/~sycara/) at CMU Robotics Institute. I obtained my Bachelor's degree in Applied Psychology at Zhejiang University. I have also worked as a Research Intern at the Honda Research Institute USA and Alibaba Group.
 
